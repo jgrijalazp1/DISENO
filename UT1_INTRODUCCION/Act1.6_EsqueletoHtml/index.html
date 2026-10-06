@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111111;
+      }
+
+      img{
+        max-width: 25%;
+        height: auto;
+      }
+      
+      #tituloMenuNavegacion{
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+<!-- =========================== CABECERA ============================-->
+    <header>
+      <h1 class="tituloGen" id="tituloGeneral">Restaurante California</h1>
+      <h2 class="tituloPrin" id="subtituloGeneral">Menus para todos los gustos</h2>
+    </header>
+
+<!-- ===================== MENU NAVEGACION ============================-->
+    <nav class ="menu" id="MenuNavegacion">
+      <h2 class="tituloPrin" id="tituloMenuNavegacion">Navegacion Principal</h2>
+      <ul id="listaMenuNavegacion">
+        <li><a ref="#quienesSomos">Quienes somos</a></li>
+        <li><a ref="#laCarta">La carta</a></li>
+        <li><a ref="#dondeEstamos">Donde estamos</a></li>
+        <li><a ref="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+<!-- ===================== CUERPO PRINCIPAL ============================-->
+    <main id="cuerpoPrincipal">
+
+        <!-- ================= ARTICULO: PLATO DEL DIA ================-->
+        <article id="platoDelDia" class="articuloPrincipal">
+            <h2 class="tituloPrin" id="titulPlatoDelDia">Plato Del dia</h2>
+            <p id="textoPlatoDelDia">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.      
+            </p>
+            <img id="imagenPlatoDelDia" src="./img/pollo-en-salsa.jpg" alt="Plato del dia"></img>
+        </article>
+        <!-- ==============================================================-->
+
+        <!-- ===================== ARTICULO: INTOLERANCIAS ================-->
+        <article id="platosIntolerancias" class="articuloPrincipal">
+            <h2 class="tituloPrin" id="tituloIntolerancias">Platos especiales para intolerancias</h2>
+            <p id="textoIntolerancias">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.      
+            </p>
+            <Table>
+              
+            </Table>
+            <!-- ------------------ SECCION: GLUTEN -------------------------------- -->
+            <section id="seccionGluten" class="seccionA">
+              <h3 class="tituloSec" id="tituloGluten">Intolerancia al gluten</h3>
+              <p id="textoGluten">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.
+              </p>
+              <img src="./img/imagenGluten.avif" alt="Comida sin gluten">
+            </section>
+            <!-- ------------------ SECCION: VEGANA -------------------------------- -->
+            <section id="seccionVegana" class="seccionA">
+              <h3 class="tituloSec" id="tituloGluten">Alimentacion vegana</h3>
+              <p id="textoVegana">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.
+              </p>
+              <img id="imagenVegana" src="./img/comidaVegana.jpg" alt="Comida Vegana">
+            </section>
+        </article>
+    </main>
+    <!-- ============================================================================-->
+
+    <!-- ===================== ASIDE: ALIMENTACION SALUDABLE  ========================-->
+    <aside id="asideSaludable" class="asidePrincipal">
+            <h2 class="tituloPrin" id="tituloSaludable">Alimentacion saludable</h2>
+            <p id="textoSaludable">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.      
+            </p>
+            <img id="imagenSaludable" src="./img/comidaSaludable.avif" alt="Comida Saludable">
+    </aside>
+    <!-- ============================================================================-->
+
+    <!-- ===================== PIE DE PAGINA ================-->
+    <footer></footer>
+
+  </body>
+</html>

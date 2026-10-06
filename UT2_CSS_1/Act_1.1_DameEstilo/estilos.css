@@ -1,0 +1,22 @@
+root{
+    --color-especial:  aqua;
+}
+p{
+    color: blue;
+}
+
+h1{
+    color: palevioletred;
+    font-size: x-large;
+}
+
+.importante{
+    font-style: oblique;
+}
+
+#especial{
+    color: var(--color-especial);
+}
+
+
+
