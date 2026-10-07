@@ -1,0 +1,34 @@
+:root{
+    --color-especial:  aqua;
+}
+
+p{
+    color: blue;
+}
+
+h1{
+    color: palevioletred;
+    font-size: x-large;
+}
+
+.importante{
+    font-style: oblique;
+}
+
+/* 
+esta clase colisiona con 'p' en la propiedad
+color: 'p' establece 'color:blue' y '.colision'
+la pone en 'color:burlywood'. Siguiendo la regla 
+de mayor especifidad, se aplica el estilo de la 
+clase antes que el del elemento.
+*/
+.colision{
+    color:burlywood;
+}
+
+#especial{
+    color: var(--color-especial);
+}
+
+
+
