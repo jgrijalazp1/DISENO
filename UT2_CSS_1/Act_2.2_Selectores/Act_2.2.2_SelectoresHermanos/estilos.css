@@ -7,7 +7,7 @@ p{
 }
 
 h1{
-    color: palevioletred;
+    /*color: palevioletred;*/
     font-size: x-large;
 }
 
@@ -30,5 +30,54 @@ clase antes que el del elemento.
     color: var(--color-especial);
 }
 
+/* 1. Todos los enlaces internos, que empiecen por “#” color de fondo rojo. */
 
+a[href^="#"]{
+   background-color: red; 
+}
 
+/* 2. Todos los enlaces que contengan la palabra “arkaitzgarro” color de fondo verde. */
+a[href*="arkaitzgarro"]{
+    background-color: green;
+}
+
+/* 3. Todos los enlaces que terminen en “.es” color de fondo azul claro. */
+
+a[href$=".es"]{
+    background-color: lightblue;
+}
+
+/* 4. Todas las abreviaturas cuyo título empiece por “Diseño” color de fondo rosa. */
+abbr[title^="Diseño"]{
+    background-color: pink;
+}
+
+/* 5. Todas las h2 adyacentes y hermanos de h1, subrayado.*/
+h1 + h2{
+    text-decoration: underline;
+}
+
+/* 6. Todos los h3 adyacentes y hermanos de h2 borde inferior con puntos rojos. */
+h2 + h3{
+    border-bottom-color: red;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+}
+
+/* 7. Todos los elementos h3 hermanos de h2 borde superior verde. */
+h2 ~ h3{
+    border-top-color: green;
+    border-top-style: dotted;
+    border-top-width: 2px;
+}
+
+/* 9. Cuando el usuario selecciona algo dicha selección será de color amarillo.*/
+*::selection{
+    background-color: yellow;
+}
+
+/* +. No lo pides pero en el enunciado los elementos de la segunda lista de navegacion
+aparecen en linea */
+nav ~ nav > ul > li{
+    display: inline-block;
+}
