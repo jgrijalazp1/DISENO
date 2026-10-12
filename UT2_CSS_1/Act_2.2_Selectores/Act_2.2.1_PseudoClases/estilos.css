@@ -1,5 +1,47 @@
-li::first-child{
-    color: red;
+li:first-child{
+    background-color: darkgray;
+    font-size: 12px;
 }
+
+li:nth-child(2n+1){
+    color: red;
+
+}
+
+li:nth-child(2n){
+    color: blue;
+}
+
+li:nth-child(1){
+    font-size: 15px;
+}
+
+li:nth-child(2){
+    font-size: 20px;
+}
+
+li:nth-child(3){
+    font-size: 25px;
+}
+
+li:nth-child(4){
+    font-size: 30px;
+}
+
+li:nth-child(5){
+    font-size: 35px;
+}
+
+li:last-child{
+    background-color: darkgray;
+}
+
+/* li:nth-child(index){
+    font-size: calc(26px + var(+index) );
+} */
+
+/* li{
+    font-size: calc(15px + var(sibling-index() * 2));
+} */
 
 
