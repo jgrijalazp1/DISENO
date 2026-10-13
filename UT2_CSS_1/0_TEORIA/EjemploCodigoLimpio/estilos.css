@@ -1,0 +1,78 @@
+/* *********************************************
+   BASE: ESTILOS GENERALES
+   ******************************************** */
+
+/* Aquí definimos una propiedad personalizada (variable CSS)
+   para reutilizar el mismo color en distintas reglas. */
+:root {
+    --color-principal: #205a87;
+}
+
+/* *********************************************
+   RESET: AJUSTES INICIALES
+   ******************************************** */
+/* Eliminamos el margen que el navegador aplica al body.
+   También establecemos una fuente general para la página.
+   NOTA: font-family pertenece conceptualmente a BASE. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* *********************************************
+   COMPONENTES: CABECERA
+   ******************************************** */
+
+/* BLOQUE BEM: cabecera. Es el componente principal.
+   Le aplicamos un color de fondo y espacio interior. */
+.cabecera {
+    background-color: #eef3f6;
+    padding: 1rem;
+}
+
+/* ELEMENTO BEM: cabecera__titulo
+   Los dos guiones bajos (__) indican que el título
+   es un elemento que pertenece al bloque cabecera.
+
+   Utilizamos var() para recuperar el color definido
+   anteriormente en :root. */
+.cabecera__titulo {
+    color: var(--color-principal);
+    margin: 0;
+}
+
+/* ELEMENTO BEM: cabecera__logo
+   Establecemos el tamaño habitual de los logotipos.
+
+   width: 4rem establece su anchura.
+   height: auto mantiene las proporciones de la imagen. */
+.cabecera__logo {
+    width: 4rem;
+    height: auto;
+}
+
+/* MODIFICADOR BEM: cabecera__logo--grande
+   Los dos guiones (--) indican una variante del elemento.
+
+   Esta clase modifica la anchura del logotipo.
+
+   En HTML se utilizan ambas clases:
+   class="cabecera__logo cabecera__logo--grande"
+
+   La primera establece el estilo base y la segunda
+   modifica su tamaño. */
+.cabecera__logo--grande {
+    width: 6rem;
+}
+
+/* ELEMENTO BEM: cabecera__logos
+   Contenedor que agrupa los logotipos.
+
+   display: flex coloca los elementos hijos en una fila.
+   gap establece la separación entre ellos.
+   margin-top añade espacio por encima del contenedor. */
+.cabecera__logos {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}

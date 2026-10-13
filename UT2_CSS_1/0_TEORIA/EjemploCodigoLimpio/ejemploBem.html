@@ -1,0 +1,28 @@
+<!-- EJEMPLO DE CÓMO FUNCIONA BEM -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo sencillo de componentes y BEM</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1 class="cabecera__titulo">Mi sitio web</h1>
+        <p>Ejemplo de un componente CSS con nombres BEM.</p>
+        <div class="cabecera__logos">
+            <!-- Nos fijamos aquí, que tenemos estilo normal -->
+            <div>
+                <img class="cabecera__logo" src="logo.svg" alt="Logotipo de tamaño normal">
+                <p>Logo normal</p>
+            </div>
+            <div>
+                <!-- Nos fijamos aquí (II): Logotipo con su clase base BEM: cabecera__logo -->
+                <img class="cabecera__logo cabecera__logo--grande" src="logo.svg" alt="Logotipo de tamaño grande">
+                <p>Logo grande (modificador)</p>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
