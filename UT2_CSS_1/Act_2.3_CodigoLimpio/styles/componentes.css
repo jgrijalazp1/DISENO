@@ -33,7 +33,19 @@
              MAIN
 **************************************/
 
+.main{
+    /* Para pruebas */
+    background-color: aqua;
+}
 
+.main__titulo{
+    background-color: blueviolet;
+}
+
+.main p{
+    /* Para pruebas*/
+    background-color: aquamarine;
+}
 
 
 
@@ -41,5 +53,19 @@
             FOOTER
 **************************************/
 
+.footer{
+
+    
+    /* Para pruebas */
+    background-color: burlywood;
+}
+
+.footer *{
+    display: inline;
+}
+
+.footer img{
+    max-width: 20rem;
+}
 
 
