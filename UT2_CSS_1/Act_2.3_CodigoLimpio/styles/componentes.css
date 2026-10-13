@@ -5,10 +5,23 @@
 .cabecera{
     background-color: #eef3f6;
     padding: 1rem;
+
+    /* Para pruebas */
+    background-color: red;
 }
 
 .cabecera__titulo{
     size: 30px;
+
+    /* Para pruebas */
+    background-color: violet;
+}
+
+/*************  MENU DE NAVEGACION  ******/
+
+.cabecera__menu{
+    /* Para pruebas */
+    background-color: red;
 }
 
 .cabecera__menu li{
