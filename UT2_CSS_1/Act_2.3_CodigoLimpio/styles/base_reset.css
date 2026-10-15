@@ -1,0 +1,17 @@
+/*************************************
+             BASE
+**************************************/
+
+:root{
+    --color-principal: #205a87;
+}
+
+/*************************************
+             RESET
+**************************************/
+
+body{
+    font-family: "Encode Sans Expanded", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
