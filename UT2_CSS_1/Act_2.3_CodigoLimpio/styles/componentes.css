@@ -1,13 +1,13 @@
-/*************************************
-        CABECERA
-**************************************/
+/************************************************************
+CABECERA
+*************************************************************/
 
 .cabecera{
     background-color: #eef3f6;
     padding: 1rem;
-
+    text-align: center;
     /* Para pruebas */
-    background-color: red;
+    background-color:burlywood;
 }
 
 .cabecera__titulo{
@@ -17,21 +17,24 @@
     background-color: violet;
 }
 
-/*************  MENU DE NAVEGACION  ******/
+/**  MENU DE NAVEGACIÓN  *********************************/
 
 .cabecera__menu{
     /* Para pruebas */
-    background-color: red;
+    background-color: wheat;
+    font-family: CantarelNormal;
 }
 
-.cabecera__menu li{
+.cabecera__menu li ,
+.cabecera__menu a{
     display: inline;
-
+    /* El motor webkit subrraya los enlaces por defecto*/
+    text-decoration: none;
 }
 
-/*************************************
-             MAIN
-**************************************/
+/************************************************************
+MAIN
+*************************************************************/
 
 .main{
     /* Para pruebas */
@@ -45,17 +48,16 @@
 .main p{
     /* Para pruebas*/
     background-color: aquamarine;
+    /* mejor poner una segunda familia muy estandar, por
+       si la primera no la tiene. */
+    font-family: Roboto, sans-serif;
 }
 
-
-
-/*************************************
-            FOOTER
-**************************************/
+/*************************************************************
+FOOTER
+**************************************************************/
 
 .footer{
-
-    
     /* Para pruebas */
     background-color: burlywood;
 }
