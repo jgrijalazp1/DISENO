@@ -8,6 +8,7 @@
     --color-base: antiquewhite;
     -webkit-appearance: none;
     appearance: none;
+    box-sizing: border-box;
 }
 
 /*************************************
