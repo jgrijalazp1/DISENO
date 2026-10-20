@@ -1,6 +1,12 @@
 /*************************************
              BASE
 **************************************/
+
+/*=========  INDICE GENERAL DE HOJAS DE ESTILOS  =======*/
+
+@import url(./layout.css);
+@import url(./componentes.css);
+
 /* 
 :root{
     --color-base: antiquewhite;
@@ -50,38 +56,7 @@ body{
         
  
 
-        .reserva {
-            background-color: rgb(232, 224, 224);
-            color: colorprincipal;
-            width: 150px;
-                     
-        }
-
-        .colum {
-            width: 49.5%;
-            border-right: dotted 1px colorprincipal;
-        }
-
-        ningun borde al segundo párrafo {
-            border: none;
-        }
-        form{
-           
-        }
-        label, input{
-            width:150px;
-           
-        }
-        label{
-           
-        }
-        .sr-only{
         
-        }
-        nav{
-            background-color:color secundario;
-            
-        }
        li de nav{
         
         }
