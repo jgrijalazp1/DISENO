@@ -1,0 +1,98 @@
+/*************************************
+             BASE
+**************************************/
+/* 
+:root{
+    --color-base: antiquewhite;
+    -webkit-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+} */
+
+:root{
+    --color-principal: rgb(4, 4, 83);
+    --color-secundario:rgb(238, 242, 242);
+    /* añade otra variable para el tipo de fuente */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+};
+
+/*************************************
+             RESET
+**************************************/
+
+body{
+    font-family: "Encode Sans Expanded", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: var(--color-base);
+}
+
+@font-face {
+    font-family: CantarelNormal;
+    src: url(../fuentes/Cantarell/Cantarell-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+        
+ 
+
+        .reserva {
+            background-color: rgb(232, 224, 224);
+            color: colorprincipal;
+            width: 150px;
+                     
+        }
+
+        .colum {
+            width: 49.5%;
+            border-right: dotted 1px colorprincipal;
+        }
+
+        ningun borde al segundo párrafo {
+            border: none;
+        }
+        form{
+           
+        }
+        label, input{
+            width:150px;
+           
+        }
+        label{
+           
+        }
+        .sr-only{
+        
+        }
+        nav{
+            background-color:color secundario;
+            
+        }
+       li de nav{
+        
+        }
+        los enlaces de nav{
+            color:colorprincipal;
+            text-decoration:none;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+       al hacer hover en li de nav{
+            background-color:var(--color-principal);          
+        }
+       enlace del li con hover de nav{
+            color: color secundario;
+        }
