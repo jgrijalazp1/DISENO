@@ -1,0 +1,51 @@
+.contenedor{
+    background-color: --color-secundario;
+}
+
+section{ 
+    border: var(--color-principal);        
+}
+
+/*
+h1{}
+span {}
+*/
+
+                        /*para pruebasa*/
+                        nav{
+                            background-color: bisque;
+                        }
+                        nav li{
+                            background-color: aqua;
+                        }
+
+nav ul{
+    margin: 10px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+    flex: 1;
+    list-style: none;
+}
+
+
+nav li:hover{
+    background-color:var(--color-principal);          
+}
+
+nav a{
+    color: var(--color-principal);
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li:active{
+
+}
+
+/*enlace del li con hover de nav*/
+nav:hover li a{
+    color: var(--color-secundario);
+} 

@@ -46,28 +46,3 @@ body{
 
 
 
-
-
-
-
-
-
-
-        
- 
-
-        
-       li de nav{
-        
-        }
-        los enlaces de nav{
-            color:colorprincipal;
-            text-decoration:none;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-        }
-       al hacer hover en li de nav{
-            background-color:var(--color-principal);          
-        }
-       enlace del li con hover de nav{
-            color: color secundario;
-        }
