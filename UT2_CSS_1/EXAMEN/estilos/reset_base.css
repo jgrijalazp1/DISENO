@@ -1,6 +1,18 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../letra/BebasNeue-Regular.ttf);
+}
+
 :root{
     --color-especial:  aqua;
     --color-negro:  #292929; /* encabezado, texto nav hover */
     --color-naranja: #f0bd55;/* bordes nav, fondo nav hover */
     --color-fondo-general: antiquewhite;
+    --fuente-general: BebasNeue, sans-serif;
 }
+
+*{
+    font-family: var(--fuente-general);
+    background-color: var(--color-fondo-general);
+}
+
