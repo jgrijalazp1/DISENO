@@ -11,13 +11,13 @@ h1{}
 span {}
 */
 
-                        /*para pruebasa*/
-                        nav{
-                            background-color: bisque;
-                        }
-                        nav li{
-                            background-color: aqua;
-                        }
+/*para pruebasa*/
+nav{
+    background-color: bisque;
+}
+nav li{
+    background-color: aqua;
+}
 
 nav ul{
     margin: 10px;

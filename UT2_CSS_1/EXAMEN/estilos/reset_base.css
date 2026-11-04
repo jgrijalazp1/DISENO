@@ -1,0 +1,6 @@
+:root{
+    --color-especial:  aqua;
+    --color-negro:  #292929; /* encabezado, texto nav hover */
+    --color-naranja: #f0bd55;/* bordes nav, fondo nav hover */
+    --color-fondo-general: antiquewhite;
+}

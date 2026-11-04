@@ -1,0 +1,28 @@
+/* -----------   ENCABEZADO   -------------- */
+
+header{
+    background-color: var(--color-negro);
+    color: aliceblue;
+}
+
+/* TITULO PRINCIPAL */
+header h1{
+    color: var(--color-naranja);
+}
+
+/* ESLOGAN */
+.header p{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* lOGOTIPO */
+
+.header img{
+    
+}
+
+/* ENCABEZADO NAVEGACION */
+header .sr-only{
+    visibility: hidden; /* hasta que lo resuelva */
+}

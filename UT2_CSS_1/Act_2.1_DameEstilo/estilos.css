@@ -1,5 +1,8 @@
 :root{
     --color-especial:  aqua;
+    --color-negro:  #292929; /* encabezado, texto nav hover */
+    --color-naranja: #f0bd55;/* bordes nav, fondo nav hover */
+    --color-fondo-general: antiquewhite;
 }
 
 p{
@@ -7,8 +10,9 @@ p{
 }
 
 h1{
-    color: palevioletred;
-    font-size: x-large;
+    color: var(--color-naranja);
+    font-size: 2.5rem;
+    
 }
 
 .importante{
